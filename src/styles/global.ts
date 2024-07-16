@@ -13,13 +13,13 @@ export const GlobalStyle = createGlobalStyle`
 
 }
 
- body {
+body {
   background-color: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme['text-color']};
  }
 
   body, input, textarea, button {
-     font-size: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
      font-weight: 400;
      font-size: 1rem;
   }
